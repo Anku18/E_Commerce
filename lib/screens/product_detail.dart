@@ -1,8 +1,6 @@
-import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:e_commerce_app/constants.dart';
 import 'package:e_commerce_app/widgets/image_swipe.dart';
 import 'package:e_commerce_app/widgets/product_size_container.dart';
-import 'package:firebase_auth/firebase_auth.dart';
 import '../services/firebase_services.dart';
 import '/widgets/custom_action_bar.dart';
 import 'package:flutter/material.dart';
@@ -129,6 +127,9 @@ class _ProductPageState extends State<ProductPage> {
                         onselected: (size) {
                           _selectedProductSize = size;
                         },
+                      ),
+                      SizedBox(
+                        height: 100,
                       ),
                       Padding(
                         padding: const EdgeInsets.all(24),

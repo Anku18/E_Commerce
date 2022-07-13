@@ -3,7 +3,6 @@ import 'package:e_commerce_app/services/firebase_services.dart';
 import 'package:e_commerce_app/widgets/custom_action_bar.dart';
 import 'package:flutter/material.dart';
 
-import '../constants.dart';
 import 'product_detail.dart';
 
 class CartPage extends StatefulWidget {
