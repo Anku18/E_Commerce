@@ -1,8 +1,8 @@
-# e_commerce_app
+# E_Commerce_app
 
 A new Flutter project.
 
-## Getting Started
+## Login Page
 
 This project is a starting point for a Flutter application.
 
